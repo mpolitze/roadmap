@@ -126,3 +126,4 @@ end
 # gem 'validate_url'               # UNUSED ACTIVERECORD VALIDATOR
 # gem 'turbolinks'                 # IS NOW A CORE PART OF RAILS >= 4.0
 
+gem 'cancan'
