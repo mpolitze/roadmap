@@ -7,7 +7,8 @@ class Users::OmniauthShibbolethRequestController < ApplicationController
     else
     	idp = params[:idp]
     end
-    query_params = {target: user_omniauth_callback_path(:shibboleth)}
+#    query_params = {target: user_omniauth_callback_path(:shibboleth)}
+    query_params = {target:  user_omniauth_shibboleth_path(:shibboleth)}
     unless idp.blank?
       query_params[:entityID] = idp
     end

@@ -86,7 +86,7 @@ module DMPRoadmap
     # Enable shibboleth as an alternative authentication method
     # Requires server configuration and omniauth shibboleth provider configuration
     # See config/initializers/omniauth.rb
-    config.shibboleth_enabled = false
+    config.shibboleth_enabled = true
 
     # Absolute path to Shibboleth SSO Login
     #config.shibboleth_login = 'https://localhost/Shibboleth.sso/Login'
